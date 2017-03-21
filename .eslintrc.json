@@ -1,0 +1,26 @@
+{
+
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "eqeqeq": ["error", "smart"],
+        "curly": "error",
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "arrow-parens": ["error", "as-needed"]
+    },
+    "settings": {
+        "import/ignore": [".css$", ".scss$"]
+    }
+}
