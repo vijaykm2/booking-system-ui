@@ -4,7 +4,6 @@ import React, {Component } from 'react';
 class FlightTab extends Component {
     render() {
 
-        sdsdss=sd+sdsd
         return (
             <div id="Flight" className="w3-container w3-white w3-padding-16 myLink">
                 <h3>Travel the world with us</h3>
