@@ -5,7 +5,7 @@ class TextInput extends Component {
     render() {
         const {type, label, labelClasses, inputClasses, labelText, placeholder, name, required, labelIconClasses, containerDivClasses } =this.props;
 
-        return(
+        return (
 
             <div className={classNames(containerDivClasses)}>
                 <label className={classNames(labelClasses)} >

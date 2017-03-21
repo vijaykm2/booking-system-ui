@@ -14,7 +14,7 @@ class SearchPageComponent extends Component {
         };
     }
 
-    handleVisibleTab = (tab)=> {
+    handleVisibleTab = tab => {
         this.setState( {
             visibleTab: tab
         });

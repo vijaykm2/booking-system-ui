@@ -18,7 +18,10 @@
         "curly": "error",
         "semi": ["error", "always"],
         "quotes": ["error", "single"],
-        "arrow-parens": ["error", "as-needed"]
+        "arrow-parens": ["error", "as-needed"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "brace-style": "error",
+        "keyword-spacing": ["error", { "before": true, "after": true }]
     },
     "settings": {
         "import/ignore": [".css$", ".scss$"]
