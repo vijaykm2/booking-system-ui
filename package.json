@@ -35,10 +35,10 @@
     "start-prod": "node server.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "eslint": "./node_modules/.bin/eslint **/src"
+    "eslint": "eslint src"
   },
   "pre-push": [
-    "eslint",
-    "build"
+    "npm run eslint",
+    "npm run build"
   ]
 }
