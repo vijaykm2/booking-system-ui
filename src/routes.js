@@ -9,6 +9,8 @@ const Routes = props => {
         <Route path="/" component={App} />
         <Route path="/search" component={SearchPage} />
 
+
+
     </Router>
     );
 };
